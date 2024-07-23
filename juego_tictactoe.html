@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>CANVAS Gato</title>
+<title>Tres en Raya</title>
 <style>
 body{
 	width:960px;
@@ -12,8 +12,8 @@ h1{
 	text-align:center;
 }
 #miCanvas{
-	border:dotted 2px yellow;
-	background:green;	
+	border:dotted 4px rgb(0, 0, 0);
+	background:rgb(171, 112, 226);	
 }
 </style>
 <script>
@@ -190,7 +190,7 @@ function tiraMaquina() {
 				canvas.addEventListener("click",selecciona,false);
 				mensaje("Pulse su jugada ");
 			} else {
-				mensaje("¡GATO!");
+				mensaje("¡TRES EN RAYA!");
 			}
 		}
 	}
@@ -377,7 +377,7 @@ window.onload = function(){
 </head>
 
 <body>
-<h1>Gato CANVAS</h1>
+<h1>Tres en Raya</h1>
 <canvas id="miCanvas" width="960px" height="500px">
 Tu navegador no soporta CANVAS
 </canvas>
